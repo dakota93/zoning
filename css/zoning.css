@@ -67,42 +67,88 @@ h1{
 #logo {
     float: left;
     text-align: center;
+    margin-bottom: 0 auto;
 }
+
 #slogan {
     float: left;
     text-align: center;
 }
 
+#photoindex {
+    text-align: center;
+}
+
+/************************************* la page zoning ****************************/
+
+/* le zoning 1 est déclarer #zoning1  */
+#zoning1  {
+    background: #ffd6d6;
+    border: 1px solid #fff;
+    width: 798px;
+    margin: auto;
+    text-align: center;
+    
+
+}
+#zoning1 header {
+    background-color: #f7f39a;
+    height: 70px;
+}
+#zoning1 aside {
+    background-color: #10828c;
+    height: 525px;
+    float: left;
+    width: 20%;
+    
+}
+
+#zoning1 section {
+    height: 525px;
+    width: 80%;
+    float: left;
+    background: #38817a;
+    margin: 0;
+    padding: 100;
+}
 
 
 /*************************************debut nav *************************/
+
+
+header{
+    text-align: center;
+}
 nav {
+ 
     height: 70px;
     padding: 15px;
-    border-bottom: 8px solid #6acafc;
+    border-bottom: 8px solid #FFF;
     text-align: center;
+    border: none;
 }
 nav a {
     margin: 10px;
     padding:2px 10px;
     border-radius: 10px 0px;
     border: 2px solid #fff;
-    background: #6acafc;
+    background: #fff;
 
     font-family: 'oswald', sans-serif, 'anton', sans-serif, 'lemonada', cursive;
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-size: 16px;
     transition: 0.5s;
-    
+    border: 1px solid white;
 }
 
 nav a:hover {
-    background: #2c3e50;
+    background: rgb(207, 134, 134);
     color: #fff;
-    border: none;
+    border: 1px solid white;
 }
 .active{
     background: #2c3e50;
     color: #fff;
+    border: 1px solid white;
 }

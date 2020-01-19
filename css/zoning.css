@@ -60,19 +60,20 @@ table {
 
 
 /*************************header index ****************************************/
+h1{
+    font-size: 50px;
+}
 
 #logo {
-    
-    width: 25%;
     float: left;
     text-align: center;
 }
 #slogan {
-    
-    width: 50%;
     float: left;
     text-align: center;
 }
+
+
 
 /*************************************debut nav *************************/
 nav {

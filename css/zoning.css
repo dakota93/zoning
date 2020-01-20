@@ -67,13 +67,19 @@ body{
     margin: 0 auto;
 }
 
+header {
+    margin: 10px;
+}
+
 h1{
+    margin: 30px;
     font-size: 50px;
 }
 
 #logo {
     text-align: center;
-    margin: 0 auto;
+    margin: -70px;
+
 }
 
 #slogan {
@@ -117,6 +123,7 @@ h1{
     margin: 0;
     padding: 100;
 }
+
 
 
 /*************************************debut nav *************************/

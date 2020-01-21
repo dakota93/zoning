@@ -2,9 +2,9 @@
 
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -68,7 +68,7 @@ body{
 }
 
 header {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 h1{
@@ -93,7 +93,7 @@ h1{
 
 /************************************* la page zoning ****************************/
 
-/* le zoning 1 est déclarer #zoning1  */
+/*********************** le zoning 1 est déclarer #zoning1  **********************/
 #zoning1  {
     background: #ffd6d6;
     border: 1px solid #fff;
@@ -122,6 +122,39 @@ h1{
     background: #38817a;
     margin: 0;
     padding: 100;
+}
+
+
+/********************************* zoning 2  *************************************/
+
+#zoning2 {
+    
+    border: 1px solid blueviolet;
+}
+
+#zoning2 header {
+    background: #38817a;
+    height: 100px;
+    width: 100%;
+    margin: none;
+}
+
+#zoning2 aside {
+    background: #2c3e50;
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+
+#zoning2 .milieu {
+    background: violet;
+    height: 500px;
+    width: 60%;
+    float: left;
+}
+
+.clear {
+    clear: both;
 }
 
 
